@@ -49,7 +49,7 @@ PSQL Sorting Benchmarks
 Using the same fields above (2 BIGINT, 1 double, 18 srings and 1 double array), I tested sorting on the table and determined the following results:
 
 1) Sorting on double field with 1 million records selecting all fields (including array) 
-- Query Statement: select * from jdbcmillion;
+- Query Statement: select * from jdbcmillion order by some_value10 asc;
    1) Test Run 1: 92 seconds
    2) Test Run 2: 93 seconds
 2) Sorting on double field with 1 million records selecting all BUT not array field 
