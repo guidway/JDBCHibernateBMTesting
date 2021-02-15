@@ -47,7 +47,7 @@ Hibernate does not have native array support, I have not been able to do benchma
 1) JDBC - 137, Hibernate - NA
 2) JDBC - 125, Hibernate - NA
 ***
-**PSQL Sorting Benchmarks**
+**PSQL Sorting Benchmarks** - Sorting Tests conducted using PSQL command line, not through code
 Using the same fields above (2 BIGINT, 1 double, 18 srings and 1 double array), I tested sorting on the table and determined the following results:
 
 1) *Sorting on double field with 1 million records selecting all fields (including array)*
