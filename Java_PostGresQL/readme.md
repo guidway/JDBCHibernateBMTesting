@@ -3,7 +3,7 @@
 A few benchmark tests comparing JDBC and Hibernate using 21 mixed type fields with and without arrays.
 
 ***
-##1 ID Field, 19 String Fields without arrays
+#1 ID Field, 19 String Fields without arrays
 (Times recorded are in seconds)
 
 Test Runs - Creating 1 million records
