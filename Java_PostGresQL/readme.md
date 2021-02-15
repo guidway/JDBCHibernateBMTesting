@@ -46,7 +46,7 @@ Test Runs - Reading 1 million records
 1) JDBC - 137, Hibernate - NA
 2) JDBC - 125, Hibernate - NA
 ***
-Java_PostGresQL/readme.mdPSQL Sorting Benchmarks
+PSQL Sorting Benchmarks
 Using the same fields above (2 BIGINT, 1 double, 17 srings and 1 double array), I tested sorting on the table and determined the following results:
 
 1) Sorting on double field with 1 million records selecting all fields (including array) 
