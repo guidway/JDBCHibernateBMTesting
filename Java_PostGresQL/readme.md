@@ -37,6 +37,8 @@ A few benchmark tests comparing JDBC and Hibernate with a PostGres database usin
 (Times recorded are in seconds)
 Some Mixed field types were 2 BIGINT, 1 double, 17 strings, and 1 double precision array)
 
+Hibernate does not have native array support, I have not been able to do benchmarks yet on testing hibernate speeds with arrays. The importance of this test though is when comparing it with previous tests without arrays, noticed the difference in performance.
+
 *Test Runs - Creating 1 million records*
 1) JDBC - 192, Hibernate - NA
 2) JDBC - 192.3, Hibernate - NA
