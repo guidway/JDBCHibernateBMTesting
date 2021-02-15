@@ -3,7 +3,7 @@
 A few benchmark tests comparing JDBC and Hibernate using 21 mixed type fields with and without arrays.
 
 ***
-#1 ID Field, 19 String Fields without arrays
+1 ID Field, 19 String Fields without arrays
 (Times recorded are in seconds)
 
 Test Runs - Creating 1 million records
@@ -18,7 +18,7 @@ Test Runs - Reading 1 million records
 
 ***
 
-##1 ID 19 Some Mixed Fields without arrays
+1 ID 19 Some Mixed Fields without arrays
 (Times recorded are in seconds)
 Some Mixed field types were 2 BIGINT, 1 double, and 17 strings)
 
@@ -34,7 +34,7 @@ Test Runs - Reading 1 million records
 3) JDBC - 6.7, Hibernate - 10
 
 ***
-##1 ID 19 Some Mixed Fields with 1 double array
+1 ID 19 Some Mixed Fields with 1 double array
 (Times recorded are in seconds)
 Some Mixed field types were 2 BIGINT, 1 double, 17 strings, and 1 double precision array)
 
@@ -46,7 +46,7 @@ Test Runs - Reading 1 million records
 1) JDBC - 137, Hibernate - NA
 2) JDBC - 125, Hibernate - NA
 ***
-##PSQL Sorting Benchmarks
+Java_PostGresQL/readme.mdPSQL Sorting Benchmarks
 Using the same fields above (2 BIGINT, 1 double, 17 srings and 1 double array), I tested sorting on the table and determined the following results:
 
 1) Sorting on double field with 1 million records selecting all fields (including array) 
