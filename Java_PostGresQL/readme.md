@@ -1,4 +1,4 @@
-# Benchmark Tests fo JDBC and PostGresQL!
+# Benchmark Tests fo JDBC and PostGres!
 
 A few benchmark tests comparing JDBC and Hibernate with a PostGres database using 21 mixed type fields with and without arrays.
 
