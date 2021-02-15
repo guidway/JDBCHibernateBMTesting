@@ -18,9 +18,9 @@ Test Runs - Reading 1 million records
 
 ***
 
-1 ID 19 Some Mixed Fields without arrays
+1 ID 19 Mixed Fields without arrays
 (Times recorded are in seconds)
-Some Mixed field types were 2 BIGINT, 1 double, and 17 strings)
+Mixed field types were 2 BIGINT, 1 double, and 17 strings)
 
 Test Runs - Creating 1 million records
 1) JDBC - 80, Hibernate - 130
