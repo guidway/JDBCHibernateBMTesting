@@ -48,11 +48,11 @@ Some Mixed field types were 2 BIGINT, 1 double, 17 strings, and 1 double precisi
 **PSQL Sorting Benchmarks**
 Using the same fields above (2 BIGINT, 1 double, 18 srings and 1 double array), I tested sorting on the table and determined the following results:
 
-*1) Sorting on double field with 1 million records selecting all fields (including array)*
+1) *Sorting on double field with 1 million records selecting all fields (including array)*
 - Query Statement: select * from jdbcmillion order by some_value10 asc;
    *1) Test Run 1: 92 seconds*
    *2) Test Run 2: 93 seconds*
-*2) Sorting on double field with 1 million records selecting all BUT not array field*
+2) *Sorting on double field with 1 million records selecting all BUT not array field*
 - Query statement: select id, some_value1, some_value2,some_value3, some_value4, some_value5, some_value6, some_value7, some_value8, some_value9, some_value10,some_value11, some_value12, some_value13, some_value14, some_value15, some_value16, some_value17, some_value18, some_value19, some_value20 from jdbcmillion order by some_value10 asc;
    *1) Test Run 1: 2.1 seconds*
    *2) Test Run 2: 2 seconds*
